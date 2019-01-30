@@ -1,0 +1,5 @@
+# https://medium.freecodecamp.org/how-to-deploy-a-node-js-app-to-the-aws-elastic-beanstalk-f150899ed977
+option_settings:
+  aws:elasticbeanstalk:application:environment:
+    PORT: 8081
+    NODE_ENV: production
