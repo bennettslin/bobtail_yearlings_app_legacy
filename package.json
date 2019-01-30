@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next build && next start"
+    "start": "next start",
+    "buildstart": "next build && next start -p 8081"
   },
   "author": "Bennett Lin",
   "license": "ISC",
