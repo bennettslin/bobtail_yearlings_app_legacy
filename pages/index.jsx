@@ -1,3 +1,3 @@
 export default () => (
-    <p1>Hello</p1>
+    <p1>Bobtail Yearlings website!</p1>
 )
