@@ -1,9 +1,19 @@
 import { Fragment as ___ } from 'react'
+import cx from 'classnames'
+
 import Link from 'next/link'
+
+import './style.scss'
 
 export default () => (
     <___>
-        <div>Bobtail Yearlings</div>
+        <div
+            {...{
+                className: cx(
+                    'Root'
+                )
+            }}
+        >Bobtail Yearlings</div>
         <div>
             <Link
                 {...{ href: '/News' }}
