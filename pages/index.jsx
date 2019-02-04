@@ -35,5 +35,54 @@ export default () => (
                 <a>Lyrics</a>
             </Link>
         </div>
+        <div>
+            <Link
+                {...{ href: '/Scores' }}
+            >
+                <a>Scores</a>
+            </Link>
+        </div>
+        <div>
+            <Link
+                {...{ href: '/Method' }}
+            >
+                <a>Method</a>
+            </Link>
+        </div>
+        <div>
+            <Link
+                {...{ href: '/Bio' }}
+            >
+                <a>Bio</a>
+            </Link>
+        </div>
+        <div>
+            <Link
+                {...{ href: '/Pics' }}
+            >
+                <a>Pics</a>
+            </Link>
+        </div>
+        <div>
+            <Link
+                {...{ href: '/Shop' }}
+            >
+                <a>Shop</a>
+            </Link>
+        </div>
+        <div>
+            <Link
+                {...{ href: '/Shows' }}
+            >
+                <a>Shows</a>
+            </Link>
+        </div>
+        <div>
+            <Link
+                {...{ href: '/Misc' }}
+            >
+                <a>Misc</a>
+            </Link>
+        </div>
     </___>
 )
