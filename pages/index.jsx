@@ -13,7 +13,7 @@ export default () => (
                     'Root'
                 )
             }}
-        >Bobtail Yearlings 02/23</div>
+        >Bobtail Yearlings 02/24</div>
         <div>
             <Link
                 {...{ href: '/News' }}
